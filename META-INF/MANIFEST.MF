@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: ca.waterloo.dsg.graphflow.runner.gpflow
+Class-Path: gson-2.8.2.jar ST4-4.0.8.jar antlr4-runtime-4.7.jar lombok-1
+ .18.0.jar javax.json-1.0.4.jar org.abego.treelayout.core-1.0.3.jar antl
+ r4-4.7.jar antlr-runtime-3.5.2.jar log4j-core-2.8.2.jar log4j-api-2.8.2
+ .jar commons-cli-1.4.jar icu4j-58.2.jar
+

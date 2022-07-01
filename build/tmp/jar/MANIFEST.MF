@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: graphflow
+Class-Path:  graphFlowLib/antlr4-4.7.jar graphFlowLib/commons-cli-1.4.
+ jar graphFlowLib/log4j-core-2.8.2.jar graphFlowLib/log4j-api-2.8.2.ja
+ r graphFlowLib/lombok-1.18.0.jar graphFlowLib/gson-2.8.2.jar graphFlo
+ wLib/antlr4-runtime-4.7.jar graphFlowLib/ST4-4.0.8.jar graphFlowLib/a
+ ntlr-runtime-3.5.2.jar graphFlowLib/org.abego.treelayout.core-1.0.3.j
+ ar graphFlowLib/javax.json-1.0.4.jar graphFlowLib/icu4j-58.2.jar
+Main-Class: ca.waterloo.dsg.graphflow.runner.Show
+

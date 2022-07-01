@@ -1,0 +1,219 @@
+The catalog was generated in 0.66 secs & number of threads used was 1.
+
+i-cost & selectivity of ALDs (scanned a sample of 1000 edges from 3387388).
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(a:0)-[0]->(b:0):
+-----------------
+
+* I-Cost:
+(a) Bwd[0] : 19.56
+(b) Fwd[0] : 9.71
+(b) Bwd[0] : 22.40
+(a) Fwd[0] : 9.70
+
+* Selectivity:
+(a) Bwd[0] : 19.56
+(a) Fwd[0], (b) Bwd[0] : 3.09
+(a) Bwd[0], (b) Bwd[0] : 4.00
+(a) Bwd[0], (b) Fwd[0] : 3.01
+(a) Fwd[0] : 9.70
+(a) Fwd[0], (b) Fwd[0] : 3.46
+(b) Bwd[0] : 22.40
+(b) Fwd[0] : 9.71
+
+(a:0)-[0]->(b:0), (c:0)-[0]->(a:0), (c:0)-[0]->(b:0):
+-----------------------------------------------------
+
+* I-Cost:
+(c) Fwd[0] : 9.78
+(a) Bwd[0] : 29.64
+(b) Fwd[0] : 9.89
+(b) Bwd[0] : 32.99
+(c) Bwd[0] : 12.77
+(a) Fwd[0] : 9.92
+
+* Selectivity:
+(c) Fwd[0] : 9.78
+(a) Fwd[0], (b) Fwd[0], (c) Bwd[0] : 2.07
+(a) Bwd[0], (b) Fwd[0], (c) Bwd[0] : 2.19
+(a) Bwd[0], (b) Fwd[0], (c) Fwd[0] : 2.82
+(a) Fwd[0] : 9.92
+(b) Bwd[0], (c) Bwd[0] : 5.43
+(c) Bwd[0] : 12.77
+(b) Fwd[0], (c) Fwd[0] : 4.91
+(b) Fwd[0], (c) Bwd[0] : 3.42
+(b) Bwd[0], (c) Fwd[0] : 5.23
+(a) Bwd[0] : 29.64
+(a) Fwd[0], (b) Bwd[0] : 5.22
+(a) Bwd[0], (b) Bwd[0], (c) Bwd[0] : 3.16
+(a) Bwd[0], (b) Fwd[0] : 5.02
+(a) Fwd[0], (b) Fwd[0] : 4.94
+(a) Bwd[0], (b) Bwd[0], (c) Fwd[0] : 3.16
+(a) Fwd[0], (b) Fwd[0], (c) Fwd[0] : 3.09
+(a) Fwd[0], (b) Bwd[0], (c) Bwd[0] : 2.27
+(a) Fwd[0], (b) Bwd[0], (c) Fwd[0] : 2.96
+(a) Bwd[0], (b) Bwd[0] : 10.48
+(b) Bwd[0] : 32.99
+(b) Fwd[0] : 9.89
+(a) Bwd[0], (c) Fwd[0] : 5.07
+(a) Bwd[0], (c) Bwd[0] : 5.26
+(a) Fwd[0], (c) Bwd[0] : 3.43
+(a) Fwd[0], (c) Fwd[0] : 4.90
+
+(a:0)-[0]->(b:0), (b:0)-[0]->(c:0), (c:0)-[0]->(a:0):
+-----------------------------------------------------
+
+* I-Cost:
+(c) Fwd[0] : 9.84
+(a) Bwd[0] : 25.94
+(b) Fwd[0] : 9.86
+(b) Bwd[0] : 16.31
+(c) Bwd[0] : 21.35
+(a) Fwd[0] : 9.90
+
+* Selectivity:
+(c) Fwd[0] : 9.84
+(a) Fwd[0], (b) Fwd[0], (c) Bwd[0] : 2.90
+(a) Bwd[0], (b) Fwd[0], (c) Bwd[0] : 3.13
+(a) Bwd[0], (b) Fwd[0], (c) Fwd[0] : 3.13
+(a) Fwd[0] : 9.90
+(b) Bwd[0], (c) Bwd[0] : 6.44
+(c) Bwd[0] : 21.35
+(b) Fwd[0], (c) Fwd[0] : 5.32
+(b) Fwd[0], (c) Bwd[0] : 4.91
+(b) Bwd[0], (c) Fwd[0] : 4.66
+(a) Bwd[0] : 25.94
+(a) Fwd[0], (b) Bwd[0] : 4.35
+(a) Bwd[0], (b) Bwd[0], (c) Bwd[0] : 3.75
+(a) Bwd[0], (b) Fwd[0] : 5.35
+(a) Fwd[0], (b) Fwd[0] : 5.03
+(a) Bwd[0], (b) Bwd[0], (c) Fwd[0] : 2.92
+(a) Fwd[0], (b) Fwd[0], (c) Fwd[0] : 3.33
+(a) Fwd[0], (b) Bwd[0], (c) Bwd[0] : 2.75
+(a) Fwd[0], (b) Bwd[0], (c) Fwd[0] : 2.77
+(a) Bwd[0], (b) Bwd[0] : 6.69
+(b) Bwd[0] : 16.31
+(b) Fwd[0] : 9.86
+(a) Bwd[0], (c) Fwd[0] : 5.27
+(a) Bwd[0], (c) Bwd[0] : 8.20
+(a) Fwd[0], (c) Bwd[0] : 4.92
+(a) Fwd[0], (c) Fwd[0] : 5.13
+
+(a:0)-[0]->(b:0), (c:0)-[0]->(b:0):
+-----------------------------------
+
+* I-Cost:
+(c) Fwd[0] : 9.41
+(a) Bwd[0] : 20.94
+(b) Fwd[0] : 9.89
+(b) Bwd[0] : 127.39
+(c) Bwd[0] : 11.67
+(a) Fwd[0] : 9.83
+
+* Selectivity:
+(c) Fwd[0] : 9.41
+(a) Fwd[0], (b) Fwd[0], (c) Bwd[0] : 0.67
+(a) Bwd[0], (b) Fwd[0], (c) Bwd[0] : 0.63
+(a) Bwd[0], (b) Fwd[0], (c) Fwd[0] : 0.86
+(a) Fwd[0] : 9.83
+(b) Bwd[0], (c) Bwd[0] : 3.59
+(c) Bwd[0] : 11.67
+(b) Fwd[0], (c) Fwd[0] : 2.57
+(b) Fwd[0], (c) Bwd[0] : 1.44
+(b) Bwd[0], (c) Fwd[0] : 3.59
+(a) Bwd[0] : 20.94
+(a) Fwd[0], (b) Bwd[0] : 3.86
+(a) Bwd[0], (b) Bwd[0], (c) Bwd[0] : 0.94
+(a) Bwd[0], (b) Fwd[0] : 2.19
+(a) Fwd[0], (b) Fwd[0] : 2.97
+(a) Bwd[0], (b) Bwd[0], (c) Fwd[0] : 0.97
+(a) Fwd[0], (b) Fwd[0], (c) Fwd[0] : 1.25
+(a) Fwd[0], (b) Bwd[0], (c) Bwd[0] : 0.75
+(a) Fwd[0], (b) Bwd[0], (c) Fwd[0] : 1.19
+(a) Bwd[0], (b) Bwd[0] : 5.89
+(b) Bwd[0] : 127.39
+(b) Fwd[0] : 9.89
+(a) Bwd[0], (c) Fwd[0] : 1.81
+(a) Bwd[0], (c) Bwd[0] : 1.79
+(a) Fwd[0], (c) Bwd[0] : 1.27
+(a) Fwd[0], (c) Fwd[0] : 2.62
+
+(a:0)-[0]->(b:0), (b:0)-[0]->(c:0):
+-----------------------------------
+
+* I-Cost:
+(c) Fwd[0] : 9.75
+(a) Bwd[0] : 19.65
+(b) Fwd[0] : 9.86
+(b) Bwd[0] : 22.81
+(c) Bwd[0] : 35.70
+(a) Fwd[0] : 9.73
+
+* Selectivity:
+(c) Fwd[0] : 9.75
+(a) Fwd[0], (b) Fwd[0], (c) Bwd[0] : 1.76
+(a) Bwd[0], (b) Fwd[0], (c) Bwd[0] : 1.65
+(a) Bwd[0], (b) Fwd[0], (c) Fwd[0] : 1.52
+(a) Fwd[0] : 9.73
+(b) Bwd[0], (c) Bwd[0] : 5.94
+(c) Bwd[0] : 35.70
+(b) Fwd[0], (c) Fwd[0] : 3.77
+(b) Fwd[0], (c) Bwd[0] : 3.77
+(b) Bwd[0], (c) Fwd[0] : 3.33
+(a) Bwd[0] : 19.65
+(a) Fwd[0], (b) Bwd[0] : 3.15
+(a) Bwd[0], (b) Bwd[0], (c) Bwd[0] : 2.02
+(a) Bwd[0], (b) Fwd[0] : 3.05
+(a) Fwd[0], (b) Fwd[0] : 3.53
+(a) Bwd[0], (b) Bwd[0], (c) Fwd[0] : 1.41
+(a) Fwd[0], (b) Fwd[0], (c) Fwd[0] : 1.99
+(a) Fwd[0], (b) Bwd[0], (c) Bwd[0] : 1.65
+(a) Fwd[0], (b) Bwd[0], (c) Fwd[0] : 1.59
+(a) Bwd[0], (b) Bwd[0] : 4.08
+(b) Bwd[0] : 22.81
+(b) Fwd[0] : 9.86
+(a) Bwd[0], (c) Fwd[0] : 2.83
+(a) Bwd[0], (c) Bwd[0] : 5.64
+(a) Fwd[0], (c) Bwd[0] : 3.50
+(a) Fwd[0], (c) Fwd[0] : 3.51
+
+(a:0)-[0]->(b:0), (a:0)-[0]->(c:0):
+-----------------------------------
+
+* I-Cost:
+(c) Fwd[0] : 9.74
+(a) Bwd[0] : 20.03
+(b) Fwd[0] : 9.74
+(b) Bwd[0] : 22.70
+(c) Bwd[0] : 37.15
+(a) Fwd[0] : 9.85
+
+* Selectivity:
+(c) Fwd[0] : 9.74
+(a) Fwd[0], (b) Fwd[0], (c) Bwd[0] : 1.77
+(a) Bwd[0], (b) Fwd[0], (c) Bwd[0] : 1.59
+(a) Bwd[0], (b) Fwd[0], (c) Fwd[0] : 1.52
+(a) Fwd[0] : 9.85
+(b) Bwd[0], (c) Bwd[0] : 6.06
+(c) Bwd[0] : 37.15
+(b) Fwd[0], (c) Fwd[0] : 3.50
+(b) Fwd[0], (c) Bwd[0] : 3.51
+(b) Bwd[0], (c) Fwd[0] : 2.93
+(a) Bwd[0] : 20.03
+(a) Fwd[0], (b) Bwd[0] : 3.15
+(a) Bwd[0], (b) Bwd[0], (c) Bwd[0] : 2.02
+(a) Bwd[0], (b) Fwd[0] : 3.07
+(a) Fwd[0], (b) Fwd[0] : 3.53
+(a) Bwd[0], (b) Bwd[0], (c) Fwd[0] : 1.41
+(a) Fwd[0], (b) Fwd[0], (c) Fwd[0] : 2.00
+(a) Fwd[0], (b) Bwd[0], (c) Bwd[0] : 1.73
+(a) Fwd[0], (b) Bwd[0], (c) Fwd[0] : 1.61
+(a) Bwd[0], (b) Bwd[0] : 4.09
+(b) Bwd[0] : 22.70
+(b) Fwd[0] : 9.74
+(a) Bwd[0], (c) Fwd[0] : 3.22
+(a) Bwd[0], (c) Bwd[0] : 5.55
+(a) Fwd[0], (c) Bwd[0] : 3.84
+(a) Fwd[0], (c) Fwd[0] : 3.84
+
